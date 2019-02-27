@@ -16,3 +16,7 @@ Files will be made in the local directory.
 If different options for the convert command are needed (such as -quality 100), then the bash script can be modified.
 
 This tool utilizes the imagemagick convert command and is tested on Windows Subsystem for Linux (in Windows 10) and Ubuntu 16. It will install the imagemagick-6-common package if it doesn't exist.
+
+## Example
+
+```bash convert.sh png jpg```
